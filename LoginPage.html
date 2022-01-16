@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Club</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url('bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: black;
+            background-color: sienna;
+        }
+        .container{
+            font-size: 30px;
+            color:black
+        }
+        .right{
+            /* border: 2px solid red; */
+            display: inline-block;
+            margin: 4px auto;
+            position: absolute;
+            margin: 4px auto;
+            right: 5%;
+            text-align: center;
+
+            
+        }
+        header{
+            font-size: 60px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+      
+        #name{
+            margin: 8px;
+        }
+        #password{
+            margin: 16px;
+        }
+        .signin{
+            border-radius: 5px;
+        }
+        .signin input:hover{
+            color:darkblue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>Looking For Movies?</header>
+    <div class="container">
+        <div class="right">
+            <div id="login">Login</div>
+            <div>
+                Username:<input type="text" name="myname" id="name">
+            </div>
+            <div>
+                Password:<input type="password" name="mypassword" id="password">
+            </div>
+            <div class="signin">
+                <a href="index.html">
+                    <input type="button" name="submit" value="login" id="btn">
+                </a>
+            </div>
+           
+        </div>
+    </div>
+    
+</body>
+</html>
