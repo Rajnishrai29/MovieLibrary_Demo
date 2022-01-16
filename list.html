@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Playlists</title>
+    //<link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url('bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+        .container{
+            font-size: 20px;
+        }
+       
+      
+        .mid{
+            position: absolute;
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            margin: 4px auto;
+            left: 30%;
+            color: black;
+        }
+        .navbar{
+            display: inline-block;
+            /* text-align: center; */
+            
+        }
+        .navbar li a{
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            padding: 12px 12px 12px 12px;
+        }
+        .navbar li{
+            display: inline-block;
+            
+        }
+        .navbar li a:hover{
+            color: darkblue;
+            text-decoration: underline;
+        }   
+        #movie{
+            text-align: center;
+            font-family: fantasy;
+            color: black;
+        }
+        header{
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            color: black;
+        }
+       .left{
+           color: black;
+       }
+       
+      
+        .signin input:hover{
+            color:darkblue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>Your Playlists</header>
+    <div class="container">
+        
+        <div class="left">
+           <div id="movie">Movie Forever</div>
+        </div>
+        <div class="mid">
+            
+                <ul class="navbar">
+                    <li><a href="#">Save Movie to...</a></li>
+                    <li><a href="#">+ New Playlist</a></li>
+                    
+                </ul>
+        
+        </div>
+    </div>
+    <script src="listarray.js"></script>
+</body>
+</html>
